@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Cashies Loans</string>
-    <string name="title_activity_main">Cashies Loans</string>
-    <string name="package_name">au.com.cashconverters.myloans</string>
-    <string name="fileprovider_authority">au.com.cashconverters.myloans.fileprovider</string>
-    <string name="custom_url_scheme">au.com.cashconverters.myloans</string>
-</resources>
