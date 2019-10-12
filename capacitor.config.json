@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "my-app",
+  "appName": "myLoansApp",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www"
