@@ -8,12 +8,14 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit {
-  public name = 'foo';
+  public name;
+  public version;
 
   constructor() {}
 
   ngOnInit() {
     this.name = environment.name;
+    this.version = environment.version;
   }
 
 }
