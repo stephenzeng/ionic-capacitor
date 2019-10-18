@@ -25,22 +25,9 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
-      this.checkUpdate().then(() => this.splashScreen.hide());
+      this.splashScreen.hide();      
     });
   }
 
-  async checkUpdate() {
-    await this.deploy.configure({
-      'appId': '88813316',
-      'channel': 'production'
-    });
-    const update = await this.deploy.checkForUpdate();
-    if (update.available) {
-      const alert = await this.alertController.create({
-        header: 'Found an update!',
-        buttons: ['OK']
-      });
-      await alert.present();
-    }
-  }
+  
 }
