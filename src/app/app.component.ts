@@ -30,7 +30,10 @@ export class AppComponent {
   }
 
   async checkUpdate() {
-    await this.deploy.configure({channel: 'production'});
+    await this.deploy.configure({
+      'appId': '88813316',
+      'channel': 'production'
+    });
     const update = await this.deploy.checkForUpdate();
     if (update.available) {
       const alert = await this.alertController.create({
