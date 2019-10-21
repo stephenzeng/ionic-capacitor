@@ -1,7 +1,0 @@
-{
-  "appId": "au.com.cashconverters.myloans",
-  "appName": "Cashies Loans",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www"
-}

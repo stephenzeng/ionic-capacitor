@@ -1,7 +1,0 @@
-{
-  "name": "myLoansApp",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
