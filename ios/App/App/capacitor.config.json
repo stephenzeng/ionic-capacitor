@@ -1,1 +1,7 @@
-{}
+{
+  "appId": "au.com.cashconverters.myloans",
+  "appName": "myLoans",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
