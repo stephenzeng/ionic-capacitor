@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package au.com.cashconverters.myloans;
 
 import android.os.Bundle;
 

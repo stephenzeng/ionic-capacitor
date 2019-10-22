@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">ionic-capacitor</string>
     <string name="title_activity_main">ionic-capacitor</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="fileprovider_authority">io.ionic.starter.fileprovider</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">au.com.cashconverters.myloans</string>
+    <string name="fileprovider_authority">au.com.cashconverters.myloans.fileprovider</string>
+    <string name="custom_url_scheme">au.com.cashconverters.myloans</string>
 </resources>
